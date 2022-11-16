@@ -18,6 +18,10 @@ double Rectangle::getLength() const {
     return length;
 }
 
+double Rectangle::area() const{
+    return width*length;
+}
+
 void Rectangle::setWidth(double w) {
     width = w;
 }
@@ -26,7 +30,8 @@ void Rectangle::setLength(double l) {
     length = l;
 }
 
-// IMPLEMENT THE AREA METHOD HERE
+
+
 
 
 

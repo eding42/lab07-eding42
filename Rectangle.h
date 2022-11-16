@@ -12,14 +12,13 @@ public:
     void setLength(double);         // mutator for length
 
     // DECLARE (const) METHOD TO RETURN AREA OF RECTANGLE
-
+    double area() const;
     
 
 private:
     double width, length;
 
 }; // end of class definition
-
 
 #endif
 
