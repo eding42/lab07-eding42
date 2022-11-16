@@ -19,13 +19,14 @@ int main() {
     cin >> width >> length;
     const Rectangle floor (width, length); // note: const object
     cout << "enter width and length of rug : ";
-    cin >> width >> length;
+    double width2, length2;
+    cin >> width2 >> length2;
 
-    rug.setLength(length);
-    rug.setWidth(width);
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
-    
+    rug.setLength(length2);
+    rug.setWidth(width2);
+
     // Change the two assignment statements for floorArea and rugArea
     // to use the area method for each of the floor and rug objects.
     double floorArea = floor.area();
