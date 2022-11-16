@@ -18,7 +18,7 @@ int main() {
     cout << "enter width and length of floor: ";
     cin >> width >> length;
     const Rectangle floor (width, length); // note: const object
-    cout << "enter width and length of rug : ";
+    cout << "enter width and length of rug: ";
     double width2, length2;
     cin >> width2 >> length2;
 
