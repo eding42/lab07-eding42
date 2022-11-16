@@ -6,9 +6,6 @@ using namespace std;
 
 #include "Rectangle.h"
 
-
-
-
 int main() {
     
     double width, length;
